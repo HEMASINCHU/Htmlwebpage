@@ -45,7 +45,13 @@
     .table tr td{
       font-size: 10px;
     }
-  
+    button {
+      margin-top:10px;
+      font-size: 10px;
+    }
+    a:link {
+      text-decoration: none; 
+    }
   
   
   
