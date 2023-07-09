@@ -1,10 +1,10 @@
 .image-list {
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
-    margin:20px;  
+    flex-wrap: wrap; 
     background-color: antiquewhite;
     border-radius: 5px; 
+    padding:10px 10px;
   }
   
   .image {
