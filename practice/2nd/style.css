@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: orange;
+    color: white;
+}
+.form{
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.btn{
+    font-size: 20px;
+    margin-left: 20px;
+    background-color: brown;  
+    padding:5px 10px;  
+    border-radius:5px;
+    color:white;
+
+}
+
+input{
+    height:30px;
+    border-radius: 10px;
+    margin-right:  20px;
+}
+label{
+font-size: 20px;
+margin-right: 10px;
+}
+.forgotPassword{
+    text-align: center;
+}
+
+ a{   
+color:white;
+font-size: 20px;
+}
