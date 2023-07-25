@@ -1,0 +1,18 @@
+.card {
+     width:500px;
+     display:flex;
+     flex-direction: column;
+     background-color: rgb(240, 236, 236);
+     border-radius: 5px;
+     position:relative;
+     top:50px;
+     left:50%;
+     translate: transform(-50%,-50%);
+
+}
+ ul {
+    list-style-type: circle;
+}
+h1{
+    padding-left:20px;
+}
