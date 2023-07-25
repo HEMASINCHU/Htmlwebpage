@@ -1,50 +1,38 @@
 .card {
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
     background-color: #f0f0f0;
     border-radius: 8px;
-    padding: 10px;
+    padding: 20px;
     width: 300px;
   
 }
 .container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  font-size: 18px;
-  
+  font-size: 20px;
+}
+select{
+  border:none;
 }
 
 .section {
   display: flex;
-  align-items: center;
   justify-content: space-between;
-
+  font-size: 18px;
 }
-
-.host {
-  margin-left: 40px;
-}
-
-.circle {
+.right-side {
   display: flex;
   align-items: center;
-  justify-content: center;
-  width: 30px;
-  height: 30px;
-  background-color: rgb(0, 123, 255);
-  border-radius: 50%;
-  margin-left: 30px;
+  gap:20px;
+
 }
-.dot {
+img{
+  border-radius: 50%;
+}
+.left-side{
   display: flex;
   align-items: center;
-  justify-content: center;
-  width: 30px;
-  height: 30px;
-  background-color: white;
-  border-radius: 50%;
-  margin-left: 10px;
+  gap:20px;
 }
