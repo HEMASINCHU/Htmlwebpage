@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+
+  .card {
+    width: 420px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin:0 auto;
+    padding:15px;
+  }
+
+  .card-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    padding:8px;
+  }
+
+  .card-header h4 {
+    margin: 0;
+    font-size: 18px;
+    color:#ccc;
+  }
+
+  .card-header p {
+    margin: 0;
+    font-size: 12px;
+    color:#ccc;
+    
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+
+  }
+  .form-check {
+    margin:10px;
+  }
+  
+.form-content1 input{
+ width:250px;
+ height:30px;
+ margin-left: 20px;
+ border-radius:8px;
+ margin-bottom:10px;
+
+}
+.form-content2 {
+    display: flex;
+    margin-bottom: 15px;
+    align-items: center;
+   
+}
+.form-content2 select{
+    width:100px;
+    height:30px;
+    margin-left:10px;
+    border-radius: 8px;
+}
+.form-content3{
+    display: flex;
+    gap:10px;
+    align-items: center;
+}
+
+.form-content {
+    display: flex;
+    align-items:flex-start;
+    margin-bottom: 15px;
+    flex-direction: column;
+  }
+  .stepper-input {
+    display: flex;
+    align-items: center;
+  }
+
+  .stepper-input button {
+  padding: 5px 15px;
+  font-size: 12px;
+  }
+
+  .stepper-input input {
+    width: 40px;
+    text-align: center;
+    padding: 5px;
+    margin: 10px 0 ;
+    background-color: white;
+    border:1px solid rgb(233, 228, 228)
+  }
+  .form-details{
+    display:flex;
+    height:40px;
+    width:30px;
+    gap:10px;
+
+  }
+
+  .form-content select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .form-content4{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    margin:10px 0;
+  }
+.form-content4 select{
+    width:50px;
+    height:30px;
+}
+.form-content4 input{
+    height:30px;
+}
+  .btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    float:right;
+    margin:20px;
+    
+  }
