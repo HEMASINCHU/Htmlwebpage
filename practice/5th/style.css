@@ -4,10 +4,7 @@
     background-color: aliceblue;
     width:500px;
     border-radius:5px;
-    position: relative;
-    top:50px;
-    left:50%;
-    translate:transform(-50%,-50%);
     font-size: 18px;
+    padding:10px;
 
 }
