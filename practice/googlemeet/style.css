@@ -1,0 +1,38 @@
+.card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+  
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+}
+select{
+  border:none;
+}
+
+.section {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+}
+.right-side {
+  display: flex;
+  align-items: center;
+  gap:20px;
+
+}
+img{
+  border-radius: 50%;
+}
+.left-side{
+  display: flex;
+  align-items: center;
+  gap:20px;
+}
