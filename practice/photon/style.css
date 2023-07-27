@@ -75,7 +75,6 @@ input {
   font-size: 20px;
   line-height: 1.2;
   flex: 1;
-
   color: rgb(195, 189, 189);
 }
 .right-side {
@@ -101,11 +100,50 @@ input {
   font-size: 30px;
   margin: 40px 0px;
 }
+.daimond{
+    display: flex;
+    font-size: 18px;
+    justify-content: space-between;
+    gap:30px;
+ background-image: linear-gradient(
+        90deg,
+        #a2f9ac 0%,
+        #9ef1b6 35%,
+        #a2f19e 100%
+      );
+    background-repeat: no-repeat;
+    margin:50px 0px;
+    padding:50px 20px;
+}
+.daimondicons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap:40px;
+    flex: 1;
+    font-size: 60px;
+}
+.leftdaimond{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.rightdaimond{
+    display: flex;
+    justify-content: space-evenly;
+}
+.daimondparagraph{
+    margin:20px 0;
+}
+
 
 .card-group {
   display: flex;
   justify-content: space-between;
   margin: 40px;
+}
+.daimondcontent{
+    flex:1;
 }
 
 .card {
