@@ -1,0 +1,182 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", Helvetica, sans-serif;
+}
+.spectral-content {
+  margin: 0 auto;
+  max-width: 400px;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-weight: 700px;
+  color: white;
+  padding: 10px 40px;
+  background-color: aqua;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  margin-bottom: 20px;
+  position: relative;
+}
+.spectral-para {
+  margin: 0 auto;
+  max-width: 350px;
+  line-height: 1.6;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background-color: aqua;
+  padding: 5px 10px;
+  /* adding some layout space */
+  margin-bottom: 20px;
+}
+.spectral-para a {
+  text-decoration: underline dotted;
+  color: white;
+}
+
+.centerd-button {
+  max-width: 300px;
+  margin: 0 auto;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+.centerd-button input {
+  display: none;
+}
+.centered-button1 {
+  padding: 10px 25px;
+  border-radius: 5px;
+  font-family: 600px;
+  margin-bottom: 20px;
+  background-color: orangered;
+  color: white;
+  border: 1px solid white;
+  cursor: pointer;
+}
+.centered-button1:hover {
+  background-color: orange;
+}
+.centered-button2 {
+  padding: 10px 30px;
+  border-radius: 5px;
+  font-family: 600px;
+  color: rgb(19, 4, 4);
+  border: 1px solid rgb(66, 62, 62);
+  margin-bottom: 20px;
+}
+
+.footer-section {
+  background-color: black;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.social-media {
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-size: 20px;
+}
+.social-media a {
+  color: rgba(255, 255, 255, 0.5);
+}
+.social-media a:hover {
+  color: white;
+}
+.copy-right ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  gap: 10px;
+  padding-bottom: 50px;
+  list-style-type: none;
+}
+.copy-right a {
+  border-bottom: 1px dotted;
+  color: rgba(255, 255, 255, 0.5);
+  margin: 0 10px;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+.copy-list {
+  padding: 0 10px;
+  border-left: 2px solid;
+  border-right: 2px solid;
+}
+.acusum-card {
+  max-width: 400px;
+  color: white;
+  background-color: rgb(80 83 147);
+}
+.acusumicon {
+  font-size: 30px;
+  padding-right: 10px;
+  color: rgb(41 190 160);
+}
+.acusum-card h1 {
+  font-size: 22px;
+  letter-spacing: 4px;
+  word-spacing: 4px;
+  padding-bottom: 10px;
+}
+.acusum-card p {
+  font-size: 12px;
+  letter-spacing: 2px;
+  padding-left: 55px;
+}
+
+.image-container {
+  letter-spacing: 2px;
+  height: 500px;
+}
+.image {
+  width: 40%;
+  float: left;
+}
+.content {
+  border: 1px solid black;
+  padding: 100px;
+  margin-left: 400px;
+  line-height: 1.6;
+  background-color: aquamarine;
+  color: white;
+}
+.content h1 {
+  word-spacing: 3px;
+}
+.content p {
+  font-size: 14px;
+}
+.sticky {
+  position: sticky;
+  top: 0;
+  background-color: blue;
+  border: 2px solid #4caf50;
+  text-align: center;
+}
+.navbar {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar ul {
+  display: flex;
+  justify-content: space-around;
+  gap: 50px;
+  text-transform: capitalize;
+  list-style-type: none;
+  height: 20px;
+}
+.navbar a {
+  text-decoration: none;
+  color: rgb(236, 72, 72);
+}
