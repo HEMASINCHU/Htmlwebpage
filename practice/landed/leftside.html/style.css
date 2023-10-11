@@ -1,0 +1,160 @@
+* {
+ 
+  box-sizing: border-box;
+}
+html,body{
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  height: 50px;
+  justify-content: flex-start;
+  gap: 800px;
+  background-color: rgb(76, 22, 22);
+  position: fixed;
+}
+.leftside p {
+  color: white;
+  display: flex;
+  flex-grow: 1;
+}
+
+.rightside ul {
+  margin-left: 0;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.rightside ul a {
+  text-decoration: none;
+  color: white;
+}
+.rightside ul li {
+  list-style-type: none;
+}
+.navbtn {
+  font-size: 20px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(205, 170, 170);
+}
+.navbar a:hover {
+  color: red;
+}
+.centered-content {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 100px 0px;
+}
+.centered-content h1 {
+  font-size: 40px;
+  margin: 0px 0px;
+}
+.centered-content p {
+  font-size: 20px;
+  margin: 40px 0px;
+}
+.hr1 {
+  width: 200px;
+  margin: auto;
+  border: 1px solid red;
+}
+.magna-content {
+  display: flex;
+  align-items: center;
+  padding: 50px;
+  gap: 100px;
+  background-color: black;
+  color: white;
+}
+.magma-lsidecontent {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.magma-section {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  font-size: 30px;
+  line-height: 1.2;
+}
+.magma-btn {
+  width: 150px;
+  padding: 15px 0;
+  font-size: 20px;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+.magma-section p {
+  font-size: 18px;
+  margin: 30px 0px;
+}
+.new-magmaline {
+  width: 300px;
+  margin: 50px 20px;
+  text-align: center;
+}
+.magma-section img {
+  border-radius: 10px;
+  margin: 50px 0;
+}
+.magma-section h1 {
+  font-size: 25px;
+  margin: 30px 0px;
+}
+.magma-rsidecontent {
+  flex: 1;
+}
+.magma-rsidecontent img {
+  border-radius: 10px;
+  margin: 30px 0;
+}
+.magma-rsidecontent h1 {
+  margin: 30px 0;
+  font-size: 30px;
+}
+
+.magma-rsidecontent p {
+  font-size: 20px;
+  margin: 30px 0;
+}
+.dolore-list-item {
+  line-height: 1.6;
+  font-size: 20px;
+}
+.footer-section {
+  background-color: black;
+  color: white;
+}
+.social-media {
+  padding: 50px 0;
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+}
+.footer {
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+  text-align: center;
+  gap: 30px;
+}
+.footer-section a {
+  text-decoration: underline dashed;
+  color: white;
+  margin: 0 20px;
+}
